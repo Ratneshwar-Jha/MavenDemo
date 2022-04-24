@@ -2,5 +2,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.package2.DemoTesting"/>
+      <class name="com.packageOne.DemonewTest"/>
+      <class name="com.packageOne.TestNgDemo"/>
+      <class name="com.package2.FirstTest"/>
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
