@@ -9,16 +9,40 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">45</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">28,460</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.package2.DemoTesting</td><td><a href="#m0">m1</a></td><td rowspan="1">1650789198303</td><td rowspan="1">6</td></tr><tr class="passedeven"><td><a href="#m1">m2</a></td><td rowspan="1">1650789198311</td><td rowspan="1">1</td></tr><tr class="passedodd"><td rowspan="2">com.package2.FirstTest</td><td><a href="#m2">m3</a></td><td rowspan="1">1650789198320</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m3">m4</a></td><td rowspan="1">1650789198321</td><td rowspan="1">1</td></tr><tr class="passedeven"><td rowspan="2">com.packageOne.DemonewTest</td><td><a href="#m4">m3</a></td><td rowspan="1">1650789198315</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m5">m4</a></td><td rowspan="1">1650789198317</td><td rowspan="1">0</td></tr><tr class="passedodd"><td rowspan="1">com.packageOne.TestNgDemo</td><td><a href="#m6">m1</a></td><td rowspan="1">1650789198318</td><td rowspan="1">1</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.packageOne.AutoLaunchBrowsers</td><td><a href="#m0">Browser</a></td><td rowspan="1">1651217734496</td><td rowspan="1">28402</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.package2.DemoTesting</td><td><a href="#m1">m1</a></td><td rowspan="1">1651217734477</td><td rowspan="1">6</td></tr><tr class="passedeven"><td><a href="#m2">m2</a></td><td rowspan="1">1651217734486</td><td rowspan="1">0</td></tr><tr class="passedodd"><td rowspan="2">com.package2.FirstTest</td><td><a href="#m3">m3</a></td><td rowspan="1">1651217762907</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m4">m4</a></td><td rowspan="1">1651217762909</td><td rowspan="1">1</td></tr><tr class="passedeven"><td rowspan="2">com.packageOne.DemonewTest</td><td><a href="#m5">m3</a></td><td rowspan="1">1651217734489</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m6">m4</a></td><td rowspan="1">1651217734492</td><td rowspan="1">1</td></tr><tr class="passedodd"><td rowspan="1">com.packageOne.TestNgDemo</td><td><a href="#m7">m1</a></td><td rowspan="1">1651217734494</td><td rowspan="1">1</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.package2.DemoTesting#m1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.package2.DemoTesting#m2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.package2.FirstTest#m3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.package2.FirstTest#m4</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.packageOne.DemonewTest#m3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.packageOne.DemonewTest#m4</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.packageOne.TestNgDemo#m1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.packageOne.AutoLaunchBrowsers#Browser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression (//td[@id=&apos;BE_flight_origin_date&apos;] because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;(//td[@id=&apos;BE_flight_origin_date&apos;]&apos; is not a valid XPath expression.
+  (Session info: MicrosoftEdge=100.0.1185.50)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;LP-5CD151GGFP&apos;, ip: &apos;192.168.29.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [04f872747a28ad3e8f7749f1a0b5058a, findElement {using=xpath, value=(//td[@id=&apos;BE_flight_origin_date&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 100.0.1185.50, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61000}, msedge: {msedgedriverVersion: 100.0.1185.39 (5d3e4966b112..., userDataDir: C:\Users\RATNES~1.JHA\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61000/devtoo..., se:cdpVersion: 100.0.1185.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 04f872747a28ad3e8f7749f1a0b5058a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at com.packageOne.AutoLaunchBrowsers.Browser(AutoLaunchBrowsers.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.package2.DemoTesting#m1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.package2.DemoTesting#m2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.package2.FirstTest#m3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.package2.FirstTest#m4</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.packageOne.DemonewTest#m3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.packageOne.DemonewTest#m4</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.packageOne.TestNgDemo#m1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

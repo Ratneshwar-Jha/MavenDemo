@@ -7,12 +7,18 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class AutoLaunchBrowsers {
+	
+	WebDriver driver;
+@Test
 
-	public static void main(String[] args) throws InterruptedException {
+	public void Browser() throws InterruptedException
+	{
+	//public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\ratneshwar.jha\\eclipse-workspace\\MavenProject\\src\\main\\resources\\chromedriver.exe");
 		//WebDriverManager.chromedriver().setup();
@@ -21,14 +27,14 @@ public class AutoLaunchBrowsers {
 		//EdgeDriver driver = new EdgeDriver();
 		//ChromeDriver driver= new ChromeDriver();
 		//WebDriver driver= new ChromeDriver();
-		//driver.get("https://www.google.com/");
-		driver.get("https://www.yatra.com/");
+		driver.get("https://www.google.com/");
+		//driver.get("https://www.yatra.com/");
 		//driver.findElement(By.xpath("(//p[@class='a-text-left a-size-base'])[1]")).click();
-		driver.findElement(By.xpath("(//td[@id='BE_flight_origin_date']")).click();
+		//driver.findElement(By.xpath("(//td[@id='BE_flight_origin_date']")).click();
 		
-				driver.findElement(By.xpath("(//td[@id='28/04/2022']")).click();
+				//driver.findElement(By.xpath("(//td[@id='28/04/2022']")).click();
 		
-		Thread.sleep(10000);
+		//Thread.sleep(10000);
 		//driver.findElement(By.partialLinkText("Gmail")).click();
 		//driver.findElement(By.xpath("//*[@href='https://mail.google.com/mail/&ogbl']")).click();
 
@@ -41,5 +47,15 @@ public class AutoLaunchBrowsers {
 		//int x=driver.findElements(By.xpath(".//*")).size();
 		//System.out.println(x);
 	}
-
+@ Test
+public void SecondBrowser()
+{
+	WebDriverManager.edgedriver().setup();
+	
+	WebDriverManager.chromedriver().setup();
+	driver= new ChromeDriver();
+	//ChromeDriver driver= new ChromeDriver();
+	//driver.get("https://www.google.com/");
+	driver.get("https://www.yatra.com/");
+}
 }

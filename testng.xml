@@ -6,6 +6,7 @@
       <class name="com.package2.DemoTesting"/>
       <class name="com.packageOne.DemonewTest"/>
       <class name="com.packageOne.TestNgDemo"/>
+      <class name="com.packageOne.AutoLaunchBrowsers"/>
       <class name="com.package2.FirstTest"/>
     </classes>
   </test> <!-- Test -->
